@@ -12,6 +12,18 @@
 	font-weight: normal;
 }
 
+.tt-post-2-thumbnail img {
+	max-height: 350px;
+}
+
+.tt-post-3-thumbnail img {
+	max-height: 235px;
+}
+
+.tt-post-4-thumbnail img {
+	max-height: 120px;
+}
+
 .tt-article-post-thumbnail img {
 	height: auto;
 	max-width: 100%;

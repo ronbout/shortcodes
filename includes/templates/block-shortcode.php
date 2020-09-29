@@ -35,7 +35,7 @@ function block_shortcode($attrs, $block_cnt) {
 			$title = (4 === $block_cnt) ? htmlentities(mb_strimwidth(html_entity_decode($title), 0, 35, '...')) : $title;
 			if ( has_post_thumbnail() ) {
 				$thumb = get_the_post_thumbnail();
-				$output .= "<a class='tt-post-thumbnail' href='$link'>$thumb</a>";
+				$output .= "<a class='tt-post-thumbnail tt-post-$block_cnt-thumbnail href='$link'>$thumb</a>";
 			}
 			$output .= "<h6 class='tt-post-title'><a href='$link'>$title</a></h6>[/su_column]";
 		}
